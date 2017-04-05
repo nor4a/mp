@@ -2,6 +2,8 @@ uuid: 6548d948-9f18-44fa-9a57-596aa8a4ab47
 langcode: en
 status: false
 dependencies:
+  config:
+    - contact.form.book_form
   module:
     - block_visibility_groups
     - contact_block
