@@ -1,0 +1,12 @@
+uuid: b3d4a1f3-932e-41eb-8e1a-4ab365b978c8
+langcode: en
+status: true
+dependencies: {  }
+id: book_form
+label: 'Book Form'
+recipients:
+  - hoangnam90pl@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

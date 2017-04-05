@@ -1,0 +1,25 @@
+uuid: f81e192d-d22c-476d-a645-6930d51fb653
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_image
+    - field.field.block_content.block_image.body
+    - field.field.block_content.block_image.field_image
+  module:
+    - image
+id: block_content.block_image.default
+targetEntityType: block_content
+bundle: block_image
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  body: true

@@ -1,0 +1,26 @@
+uuid: 8b2ad5f0-7fbd-425d-a7b7-f8c6c99cc20a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.menu_food.body
+    - node.type.menu_food
+  module:
+    - text
+    - user
+id: node.menu_food.teaser
+targetEntityType: node
+bundle: menu_food
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

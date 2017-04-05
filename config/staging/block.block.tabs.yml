@@ -1,0 +1,31 @@
+uuid: dafedb1d-63f6-4da3-817b-84afa284f537
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_savor
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: tabs
+theme: gavias_savor
+region: help
+weight: null
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

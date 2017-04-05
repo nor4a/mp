@@ -1,0 +1,30 @@
+uuid: 6df6d33b-46b7-4c21-ab17-7454f0bbac74
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_savor
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: mainpagecontent
+theme: gavias_savor
+region: content
+weight: null
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

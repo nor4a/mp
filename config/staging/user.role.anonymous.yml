@@ -1,0 +1,16 @@
+uuid: 9894b54f-e914-4ac9-8f2f-47e0410c03eb
+langcode: en
+status: true
+dependencies: {  }
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  0: 'access content'
+  2: 'access comments'
+  3: 'access site-wide contact form'
+  4: 'search content'
+  5: 'post comments'
+  6: 'subscribe to newsletters'
+  7: 'administer gavias_customize preview'

@@ -1,0 +1,8 @@
+uuid: 908f46c9-bfb6-467b-9100-f76ad995613b
+langcode: en
+status: true
+dependencies: {  }
+id: block_image
+label: 'Block image'
+revision: 0
+description: 'Display block attach images.'

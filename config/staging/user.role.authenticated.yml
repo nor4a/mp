@@ -1,0 +1,19 @@
+uuid: 468a5b72-990c-4ba9-8b06-6b2797be2c1f
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'
+  - 'search content'
+  - 'subscribe to newsletters'
+  - 'administer gavias_customize preview'

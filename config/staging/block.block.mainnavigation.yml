@@ -1,0 +1,34 @@
+uuid: 288cb6d4-7be5-42cf-b93d-40a5c14b7386
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_savor
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: mainnavigation
+theme: gavias_savor
+region: main_menu
+weight: null
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

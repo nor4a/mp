@@ -1,0 +1,46 @@
+uuid: ead63b5c-7969-4f22-99a9-9be080e0f75f
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.book_form
+    - field.field.contact_message.book_form.field_book_date
+    - field.field.contact_message.book_form.field_book_size
+    - field.field.contact_message.book_form.field_book_time
+  module:
+    - datetime
+    - options
+id: contact_message.book_form.default
+targetEntityType: contact_message
+bundle: book_form
+mode: default
+content:
+  field_book_date:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_book_size:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_book_time:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  message:
+    type: string
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,35 @@
+uuid: f720b616-b485-4d6e-9f6a-5934020b5547
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.right_sidebar
+    - views.view.categories_post
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - views
+  theme:
+    - gavias_savor
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: views_block__categories_post_block_2
+theme: gavias_savor
+region: sidebar_right
+weight: null
+provider: null
+plugin: 'views_block:categories_post-block_2'
+settings:
+  id: 'views_block:categories_post-block_2'
+  label: 'Tags '
+  provider: views
+  label_display: visible
+  views_label: 'Tags '
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: right_sidebar
+    context_mapping: {  }

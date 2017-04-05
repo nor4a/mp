@@ -1,0 +1,31 @@
+uuid: 6548d948-9f18-44fa-9a57-596aa8a4ab47
+langcode: en
+status: false
+dependencies:
+  module:
+    - block_visibility_groups
+    - contact_block
+    - gaviasthemer
+  theme:
+    - gavias_savor
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: contactblock
+theme: gavias_savor
+region: '-1'
+weight: null
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Book Form Block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: book_form
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

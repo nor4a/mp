@@ -1,0 +1,9 @@
+uuid: 80ac2c25-0d58-4bfc-8125-9bdb13e81a64
+langcode: en
+status: true
+dependencies: {  }
+name: 'Menu Category'
+vid: menu_category
+description: 'Categories for menu food'
+hierarchy: 0
+weight: 0

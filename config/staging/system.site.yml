@@ -1,0 +1,12 @@
+uuid: 77b896ee-32b4-4118-8000-0d89344a315d
+name: MadamPuzo
+mail: madampuzo@gmail.com
+slogan: 'Garšīgas zaptītes...'
+page:
+  403: ''
+  404: /node/106
+  front: /node/159
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

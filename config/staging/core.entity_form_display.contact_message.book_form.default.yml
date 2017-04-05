@@ -1,0 +1,60 @@
+uuid: 252b04f1-c967-4d19-a834-988a04e5eee2
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.book_form
+    - field.field.contact_message.book_form.field_book_date
+    - field.field.contact_message.book_form.field_book_size
+    - field.field.contact_message.book_form.field_book_time
+  module:
+    - datetime
+id: contact_message.book_form.default
+targetEntityType: contact_message
+bundle: book_form
+mode: default
+content:
+  copy:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+  field_book_date:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_book_size:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_book_time:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  mail:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 6
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

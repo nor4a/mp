@@ -1,0 +1,29 @@
+uuid: eddc97f0-d851-435f-93d8-13ddb5c794b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+  theme:
+    - gavias_savor
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: primaryadminactions
+theme: gavias_savor
+region: help
+weight: null
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
