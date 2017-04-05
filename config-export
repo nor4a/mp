@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd web
+../vendor/drush/drush/drush $1 config-export staging
+cd ../

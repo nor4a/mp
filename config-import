@@ -1,0 +1,4 @@
+cd web
+../vendor/drush/drush/drush config-import staging
+../vendor/drush/drush/drush cache-rebuild
+cd ../
