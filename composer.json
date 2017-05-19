@@ -37,7 +37,11 @@
         "drupal/views_infinite_scroll": "~1.0",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.2.1",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
+        "drupal/captcha": "~1.0",
+        "drupal/recaptcha": "~1.0",
+        "drupal/commerce": "~2.0",
+        "drupal/backup_migrate": "~4.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -51,7 +55,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
       "sort-packages": true

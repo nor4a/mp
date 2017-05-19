@@ -23,6 +23,7 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_book_size:
     weight: 3
     label: above
@@ -30,12 +31,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_book_time:
     weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
   message:
     type: string
     weight: 0
@@ -43,4 +46,5 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    region: content
 hidden: {  }

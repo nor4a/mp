@@ -15,7 +15,7 @@ third_party_settings:
     classes: ''
 id: contactblock
 theme: gavias_savor
-region: '-1'
+region: offcanvas
 weight: null
 provider: null
 plugin: contact_block

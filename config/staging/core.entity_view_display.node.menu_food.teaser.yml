@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.menu_food.body
+    - field.field.node.menu_food.field_menu_category
+    - field.field.node.menu_food.field_menu_image
+    - field.field.node.menu_food.field_menu_price
     - node.type.menu_food
   module:
     - text
@@ -21,6 +24,11 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
-hidden: {  }
+    region: content
+hidden:
+  field_menu_category: true
+  field_menu_image: true
+  field_menu_price: true

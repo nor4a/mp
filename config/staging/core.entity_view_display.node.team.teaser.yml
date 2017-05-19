@@ -5,6 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.team.body
+    - field.field.node.team.field_team_facebook
+    - field.field.node.team.field_team_google
+    - field.field.node.team.field_team_image
+    - field.field.node.team.field_team_linkedin
+    - field.field.node.team.field_team_name
+    - field.field.node.team.field_team_position
+    - field.field.node.team.field_team_twitter
     - node.type.team
   module:
     - text
@@ -21,6 +28,15 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
-hidden: {  }
+    region: content
+hidden:
+  field_team_facebook: true
+  field_team_google: true
+  field_team_image: true
+  field_team_linkedin: true
+  field_team_name: true
+  field_team_position: true
+  field_team_twitter: true

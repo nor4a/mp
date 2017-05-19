@@ -27,6 +27,7 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_team_facebook:
     weight: 102
     label: above
@@ -34,6 +35,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_team_google:
     weight: 103
     label: above
@@ -41,6 +43,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_team_image:
     weight: 104
     label: above
@@ -49,6 +52,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
   field_team_linkedin:
     weight: 105
     label: above
@@ -56,6 +60,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_team_name:
     weight: 106
     label: above
@@ -63,6 +68,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_team_position:
     weight: 107
     label: above
@@ -70,6 +76,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_team_twitter:
     weight: 108
     label: above
@@ -77,6 +84,8 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   links:
     weight: 100
+    region: content
 hidden: {  }

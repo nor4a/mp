@@ -18,11 +18,13 @@ content:
     weight: 7
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_book_date:
     weight: 3
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_book_size:
     weight: 5
     settings:
@@ -30,15 +32,18 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_book_time:
     weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
   mail:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
   message:
     type: string_textarea
     weight: 6
@@ -46,10 +51,15 @@ content:
       rows: 12
       placeholder: ''
     third_party_settings: {  }
+    region: content
   name:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
+  preview:
+    weight: 40
+    region: content
   subject:
     type: string_textfield
     weight: 2
@@ -57,4 +67,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    region: content
 hidden: {  }

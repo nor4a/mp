@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.gallery.body
+    - field.field.node.gallery.field_gallery_image
     - node.type.gallery
   module:
     - text
@@ -21,6 +22,9 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
-hidden: {  }
+    region: content
+hidden:
+  field_gallery_image: true
