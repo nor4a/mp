@@ -14,7 +14,7 @@ third_party_settings:
 id: simplenewssubscription
 theme: gavias_savor
 region: footer_first
-weight: null
+weight: -11
 provider: null
 plugin: simplenews_subscription_block
 settings:

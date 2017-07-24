@@ -16,7 +16,7 @@ third_party_settings:
 id: topbar
 theme: gavias_savor
 region: topbar
-weight: null
+weight: -11
 provider: null
 plugin: 'block_content:2f07e2c8-0b1d-4520-8201-4ba62df533c2'
 settings:

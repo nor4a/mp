@@ -1,4 +1,4 @@
-uuid: 36c012f5-145a-46b6-80f4-5ecdfc64dd7a
+uuid: 9bc6160c-83b8-4ed7-b86c-5b59faa40c53
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
     - entity_reference_revisions
     - options
 _core:
-  default_config_hash: qBqoSxkoZsoBNcij4GoFM4rD0DCIsX6EYWUiqm7uZuw
+  default_config_hash: UcQydNwgf9NMjqKyyPwC9mJu-QmHqV7HKOcIp0VuV7w
 id: commerce_order.default.user
 targetEntityType: commerce_order
 bundle: default

@@ -15,7 +15,7 @@ third_party_settings:
 id: gaviassliderlayerslidermain
 theme: gavias_savor
 region: slideshow_content
-weight: null
+weight: -11
 provider: null
 plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____1'
 settings:

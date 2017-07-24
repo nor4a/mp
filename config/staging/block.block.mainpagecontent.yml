@@ -14,7 +14,7 @@ third_party_settings:
 id: mainpagecontent
 theme: gavias_savor
 region: content
-weight: null
+weight: -11
 provider: null
 plugin: system_main_block
 settings:

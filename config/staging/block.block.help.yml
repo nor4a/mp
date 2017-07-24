@@ -14,7 +14,7 @@ third_party_settings:
 id: help
 theme: gavias_savor
 region: help
-weight: null
+weight: -11
 provider: null
 plugin: help_block
 settings:

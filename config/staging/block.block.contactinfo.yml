@@ -16,7 +16,7 @@ third_party_settings:
 id: contactinfo
 theme: gavias_savor
 region: footer_first
-weight: null
+weight: -11
 provider: null
 plugin: 'block_content:0c1ecc6e-1d39-4ec0-a502-2c557762945e'
 settings:

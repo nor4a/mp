@@ -1,4 +1,4 @@
-uuid: 2340df29-4f8a-4023-b31e-4ae2f803a6a8
+uuid: ba6aef24-8220-4733-b5bf-6049a277995f
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,9 @@ dependencies:
     module:
       - commerce_product
 _core:
-  default_config_hash: U9iDX3WNH2BEF4pY9DvvUhd-ForNP76WDS0OoSUN5fY
+  default_config_hash: jNPt_s6r5tiynMJ5tvaDZjlOtQ4ply0Ii-GBJ7lMZ7Y
 label: Default
 id: default
 purchasableEntityType: commerce_product_variation
 orderType: default
+traits: {  }

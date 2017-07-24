@@ -14,7 +14,7 @@ third_party_settings:
 id: messages
 theme: gavias_savor
 region: help
-weight: null
+weight: -11
 provider: null
 plugin: system_messages_block
 settings:

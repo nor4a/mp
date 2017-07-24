@@ -1,11 +1,14 @@
-uuid: cb25551c-1bc5-4f8d-8552-c5c8505ac6fc
+uuid: 63d962fe-8512-44ef-b1b8-48ccc94e6a53
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: KYr8uXh9rhxN7HBkbCjQH5urPPMI6CRPyqKz81eIO1I
+  default_config_hash: zf7YA-OOtWhhrphbf3YOlc49POwC9rePktH9cBavEiA
 label: Default
 id: default
 workflow: order_default
+traits: {  }
 refresh_mode: customer
 refresh_frequency: 300
+sendReceipt: true
+receiptBcc: ''

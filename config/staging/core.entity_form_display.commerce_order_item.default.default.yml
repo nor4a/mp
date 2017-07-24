@@ -1,4 +1,4 @@
-uuid: 34d6343b-dc76-4706-88f3-c05886f5308a
+uuid: 3b7732a4-0884-448c-8dd4-0a21d529b358
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,10 @@ dependencies:
     module:
       - commerce_product
   module:
+    - commerce_order
     - commerce_price
 _core:
-  default_config_hash: UZVAkGQqaNTvv788-BJ6xs8ZmfrWc2qjUwCFThnx4yE
+  default_config_hash: MM_IKfdHzcnfT_RdhapoaQHn8nYqrV8gbXHdqA2p_sY
 id: commerce_order_item.default.default
 targetEntityType: commerce_order_item
 bundle: default
@@ -26,10 +27,11 @@ content:
     third_party_settings: {  }
     region: content
   quantity:
-    type: number
+    type: commerce_quantity
     weight: 1
     settings:
       placeholder: ''
+      step: '1'
     third_party_settings: {  }
     region: content
   unit_price:

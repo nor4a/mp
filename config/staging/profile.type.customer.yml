@@ -1,4 +1,4 @@
-uuid: e4770575-7531-4635-ab32-cfcfe4c9c1b1
+uuid: 429ac891-80ec-4239-82b1-af9de2c5b269
 langcode: en
 status: true
 dependencies:
@@ -13,3 +13,4 @@ registration: false
 multiple: true
 roles: {  }
 weight: 0
+use_revisions: false

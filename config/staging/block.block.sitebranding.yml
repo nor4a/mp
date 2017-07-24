@@ -14,7 +14,7 @@ third_party_settings:
 id: sitebranding
 theme: gavias_savor
 region: branding
-weight: null
+weight: -10
 provider: null
 plugin: system_branding_block
 settings:

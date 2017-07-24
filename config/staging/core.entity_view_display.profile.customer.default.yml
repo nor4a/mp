@@ -1,4 +1,4 @@
-uuid: 9f1cd6cf-b1ba-452f-966d-5ff51c9f6031
+uuid: 502d1317-5870-486e-8ecb-47247004d364
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
   module:
     - address
 _core:
-  default_config_hash: U0WIT0I1Hra0Sdic4RmMTkCRLtXJjeDRxWw6PfxaPFI
+  default_config_hash: '-D8G44VGLIAIFvoHm_u7-Awnie4iCenOWfldrpNy_ys'
 id: profile.customer.default
 targetEntityType: profile
 bundle: customer

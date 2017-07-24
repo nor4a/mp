@@ -16,7 +16,7 @@ third_party_settings:
 id: socialfooter
 theme: gavias_savor
 region: footer_first
-weight: null
+weight: -11
 provider: null
 plugin: 'block_content:29311e5a-f7c4-4614-b554-8a0f30b49cd9'
 settings:

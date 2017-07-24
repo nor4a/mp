@@ -16,7 +16,7 @@ third_party_settings:
 id: copyright
 theme: gavias_savor
 region: copyright
-weight: null
+weight: -11
 provider: null
 plugin: 'block_content:6a74724d-d485-4216-a560-962e52758fde'
 settings:
