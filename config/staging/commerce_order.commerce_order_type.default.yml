@@ -1,0 +1,11 @@
+uuid: cb25551c-1bc5-4f8d-8552-c5c8505ac6fc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KYr8uXh9rhxN7HBkbCjQH5urPPMI6CRPyqKz81eIO1I
+label: Default
+id: default
+workflow: order_default
+refresh_mode: customer
+refresh_frequency: 300
