@@ -5,7 +5,7 @@ dependencies: {  }
 id: feedback
 label: 'Website feedback'
 recipients:
-  - demo@yourdomain.com
+  - web@madampuzo.lv
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

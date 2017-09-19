@@ -13,8 +13,11 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_filter: 0
+  config_ignore: 0
   contact: 0
   contact_block: 0
+  contact_storage: 0
   contextual: 0
   ctools: 0
   datetime: 0
@@ -48,6 +51,7 @@ module:
   search: 0
   shortcut: 0
   simplenews: 0
+  smtp: 0
   state_machine: 0
   system: 0
   taxonomy: 0
