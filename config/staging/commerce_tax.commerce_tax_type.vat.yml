@@ -1,9 +1,0 @@
-uuid: feb1791f-f969-413d-8f8a-cf7a84f89911
-langcode: en
-status: true
-dependencies: {  }
-id: vat
-label: 'VAT 21%'
-plugin: european_union_vat
-configuration:
-  display_inclusive: true

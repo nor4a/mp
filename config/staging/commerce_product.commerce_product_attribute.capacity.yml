@@ -1,7 +1,0 @@
-uuid: 14974ae8-d638-4c6c-ad31-13e96ad02fbf
-langcode: en
-status: true
-dependencies: {  }
-id: capacity
-label: Capacity
-elementType: radios
